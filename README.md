@@ -1,2 +1,2 @@
 # test-js
-just for practice for js in online code editor
+Just for practice of JS in the online code editor.
