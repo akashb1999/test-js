@@ -67,3 +67,30 @@ let r7 = ['object', 'functions']
 let r8 = ['object', undefined,'boolian','string','number']
 
 console.table([r1,r2,r3,r4,r5,r6,r7,r8])
+
+
+
+//********************************************************************************* */
+// memories of Datatypes:-
+//There are two types of memories--
+//1)Stack mem(Premitive{copy})
+//2)Heap mem (Non-Premitive{reference})
+
+// stack memory
+let name = "Akash"
+let name2 = name
+console.log(name2)
+name2 = "Aswas"
+console.log(name,name2)
+
+//heap memory--
+let obj = {
+    myName :"Akash Bh..",
+    email : 'akshbhattacharyya@gmail.com', 
+    phone : 1234567890,
+}
+let user = obj
+user.myName = "Akash Bhattacharyya"
+console.log(obj)
+console.log(user)
+
