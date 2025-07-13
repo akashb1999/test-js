@@ -58,14 +58,14 @@ let myTimeStamp = Date.now()
 // console.log(myCreatedDate.getTime());
 // console.log(Math.floor(Date.now()/1000));
 
-let newDate = new Date()
-console.log(newDate);
-console.log(newDate.getMonth() + 1);
-console.log(newDate.getDay());
+let newDate1 = new Date()
+console.log(newDate1);
+console.log(newDate1.getMonth() + 1);
+console.log(newDate1.getDay());
 
 // `${newDate.getDay()} and the time `
 
-newDate.toLocaleString('default', {
+newDate1.toLocaleString('default', {
     weekday: "long",
     
 })
